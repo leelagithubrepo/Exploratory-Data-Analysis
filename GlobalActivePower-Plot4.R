@@ -34,7 +34,7 @@ legend("topright", col=c("black","red","blue")
        , bty="n"
        , cex=.5) 
 
-# Plot 4
+# Plot4
 plot(powerDT[, dateTime], powerDT[,Global_reactive_power], type="l", xlab="datetime", ylab="Global_reactive_power")
 
 dev.off()
